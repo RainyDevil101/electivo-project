@@ -1,12 +1,12 @@
 import { defineStore } from 'pinia';
-import navbarLinks from '../refs/navbarLinks'
 import { computed } from 'vue';
+import navbarLinks from '../refs/navbarLinks'
 
 export const useLinksStore = defineStore('links', () => {
     const links = navbarLinks;
     const getLinks = computed(() => links);
     function setLinks() {
-        links = navbarLinks;
+        links.value = navbarLinks;
     }
 
     return {
