@@ -1,6 +1,8 @@
 <template>
-    <li class="list-none p-4 block h-full hover:bg-redPantone hover:text-lightGray cursor-default md:p-4 md:flex md:h-full md:items-center md:justify-center">
-        <a class="p-0 m-0 text-center uppercase text-sm md:text-base">{{ name }}</a>
+    <li class="list-none">
+        <router-link :to="{ name: page }"
+            class="uppercase block p-4 hover:bg-redPantone hover:text-lightGray cursor-default lg:p-6 lg:flex lg:h-full lg:items-center lg:justify-center text-center transition-all">{{
+                name }}</router-link>
     </li>
 </template>
 
@@ -12,8 +14,6 @@ const props = defineProps({
 })
 const { link } = toRefs(props);
 
-const { name, to } = link.value;
-
-
+const { name, page } = link.value;
 
 </script>

@@ -3,7 +3,8 @@ export default {
     darkMode: 'class',
     content: [
         "./src/**/*.{html, js, ts, vue}",
-        "./src/**/*"
+        "./src/**/*",
+        // "./node_modules/flowbite/**/*.js"
     ],
     theme: {
         colors: {
@@ -15,6 +16,8 @@ export default {
         },
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('flowbite/plugin')
+    ],
 }
 

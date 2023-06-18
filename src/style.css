@@ -9,12 +9,16 @@
 .width {
     display: block;
     padding: 90px 0;
-    max-width: 1000px;
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
 }
 
+.router-link-active {
+    color: #edf2f4ff;
+    background-color: #ef233cff;
+}
+
 p {
     line-height: 2rem;
-    font-size: 16px;
 }

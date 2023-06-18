@@ -1,53 +1,43 @@
 <template>
-    <div
-        class="block w-full md:flex h-full md:h-16 md:items-center md:justify-between navbar bg-lightGray dark:bg-primary text-primary dark:text-lightGray">
-        <div class="flex justify-between items-center text-center uppercase px-4 py-0 h-16 md:h-full">
-            <i @click="toggleDark()" class="fa-solid fa-circle-half-stroke mr-4 hover:text-redPantone"></i>
-            <h2 class="m-0 p-0 text-xs md:text-2xl">Proyecto - Electivo</h2>
-            <i @click="onShowNavbar" class="fa-solid fa-bars ml-4 hover:text-redPantone md:hidden"></i>
+    <nav class="fixed w-full z-20 top-0 left-0 backdrop-blur-sm">
+        <div class="max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto px-4 h-full">
+            <div class="flex items-center">
+                <i @click="toggleDark()" class="fa-solid fa-circle-half-stroke mr-4 hover:text-redPantone transition-all"></i>
+                <h2 class="self-center p-4 text-xl md:text-3xl font-semibold whitespace-nowrap text-primary dark:text-lightGray uppercase">
+                    Proyecto - Electivo</h2>
+            </div>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-primary dark:text-lightGray rounded-lg lg:hidden hover:text-redPantone focus:outline-none focus:ring-2 focus:ring-redPantone dark:hover:text-redPantone dark:focus:ring-redPantone"
+                aria-controls="navbar-default" aria-expanded="false">
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 lg:p-0 mt-4 lg:flex-row lg:space-x-0 lg:mt-0 transition">
+                    <LinkItem v-for="link in navLinks" :link="link" :key="link"/>
+                </ul>
+            </div>
         </div>
-        <ul :class="showNavbar ? ['block'] : 'hidden'" class="text-center p-0 m-0 md:flex h-full">
-            <LinkItem v-for="link in navLinks" :link="link" :key="link" />
-        </ul>
-    </div>
+    </nav>
 </template>
 
 <script setup>
 import { useLinksStore } from '../store';
 import { useDark, useToggle } from '@vueuse/core';
 import LinkItem from './LinkItem.vue';
-import toggleNavbar from '../helpers/toggleNavbar';
-import navbarSize from '../helpers/navbarSize';
-
 const store = useLinksStore();
 const { getLinks } = store;
-const { onShowNavbar, showNavbar } = toggleNavbar()
-const { windowSize, handleResize } = navbarSize();
-
-handleResize()
-
-
+const navLinks = getLinks;
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
 
-const navLinks = getLinks;
-
-// onMounted(() => {
-//     console.log(test2.value);
-// });
 
 
 </script>
 
-<style scoped>
-.navbar {
-    -webkit-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.61);
-    -moz-box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.61);
-    box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.61);
-}
-
-.showNavbarClass {
-    display: block;
-}
-</style>
