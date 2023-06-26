@@ -14,9 +14,23 @@
     margin: 0 auto;
 }
 
+.width-dashboard {
+    display: block;
+    padding: 90px 0;
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .router-link-active {
     color: #edf2f4ff;
     background-color: #ef233cff;
+}
+
+.chart {
+    height: 100%;
+    background-color: red;
+    /* height: 90%; */
 }
 
 p {

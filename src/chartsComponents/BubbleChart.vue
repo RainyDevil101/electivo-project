@@ -1,5 +1,7 @@
 <template>
-    <canvas id="bubbleChart"></canvas>
+    <div class="h-96 lg:h-full bg-secondary rounded">
+        <canvas id="bubbleChart"></canvas>
+    </div>
 </template>
 
 <script setup>
@@ -29,7 +31,8 @@ const config = {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        maintainAspectRatio: false
     }
 };
 

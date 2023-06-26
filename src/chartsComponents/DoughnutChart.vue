@@ -1,5 +1,7 @@
 <template>
-    <canvas id="doughnutChart"></canvas>
+    <div class="h-96 lg:h-full bg-secondary rounded">
+        <canvas id="doughnutChart"></canvas>
+    </div>
 </template>
 
 <script setup>
@@ -31,7 +33,8 @@ const config = {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        maintainAspectRatio: false,
     }
 };
 

@@ -1,5 +1,7 @@
 <template>
-    <canvas id="barChart"></canvas>
+    <div class="h-96 lg:h-full bg-secondary rounded">
+        <canvas id="barChart"></canvas>
+    </div>
 </template>
 
 <script setup>
@@ -10,7 +12,7 @@ import { onMounted } from 'vue';
 const config = {
     type: 'bar',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['Alexis', 'Herrera', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],
@@ -22,7 +24,8 @@ const config = {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        maintainAspectRatio: false
     }
 };
 

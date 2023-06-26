@@ -1,15 +1,13 @@
 
 <template>
     <Navbar />
-    <div class="bg-lightGray text-primary dark:bg-primary dark:text-lightGray width">
+    <div class="bg-lightGray text-primary dark:bg-primary dark:text-lightGray">
         <RouterView></RouterView>
     </div>
 </template>
 
 <script setup>
 import Navbar from './components/Navbar.vue';
-
-const test = 'test';
 
 
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <StandarContent />
+    <StandarContent class="width"/>
 </template>
 
 <script setup>

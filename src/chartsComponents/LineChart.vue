@@ -1,5 +1,7 @@
 <template>
-    <canvas id="lineChart"></canvas>
+    <div class="h-96 lg:h-full bg-secondary rounded w-full">
+        <canvas id="lineChart"></canvas>
+    </div>
 </template>
 
 <script setup>
@@ -7,13 +9,13 @@ import Chart from 'chart.js/auto';
 import { onMounted } from 'vue';
 
 const MONTHS = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
 ];
 
 const labels = MONTHS;
@@ -36,7 +38,8 @@ const config = {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        maintainAspectRatio: false
     }
 };
 

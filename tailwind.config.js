@@ -14,7 +14,20 @@ export default {
             'redPantone': '#ef233cff',
             'fireEngineRed': '#d90429ff',
         },
-        extend: {},
+        extend: {
+            height: {
+                'lat-bar': 'calc(100vh - 100px)',
+            },
+            margin: {
+                'lat-bar': '84px'
+            },
+            width: {
+                'min-width': '380px'
+            },
+            gridTemplateColumns: {
+                'fill-40': 'repeat(auto-fill, 3fr)',
+              },
+        },
     },
     plugins: [
         require('flowbite/plugin')

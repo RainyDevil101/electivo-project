@@ -3,7 +3,7 @@
         <div class="max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto px-4 h-full">
             <div class="flex items-center">
                 <i @click="toggleDark()" class="fa-solid fa-circle-half-stroke mr-4 hover:text-redPantone transition-all"></i>
-                <h2 class="self-center p-4 text-xl md:text-3xl font-semibold whitespace-nowrap text-primary dark:text-lightGray uppercase">
+                <h2 class="self-center p-5 md:p-4 text-xl md:text-3xl font-semibold whitespace-nowrap text-primary dark:text-lightGray uppercase">
                     Proyecto - Electivo</h2>
             </div>
             <button data-collapse-toggle="navbar-default" type="button"
