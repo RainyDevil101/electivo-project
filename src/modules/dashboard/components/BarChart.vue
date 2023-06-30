@@ -5,17 +5,30 @@
 </template>
 
 <script setup>
-import Chart from 'chart.js/auto';
 import { onMounted } from 'vue';
+import Chart from 'chart.js/auto';
+import { toRefs } from 'vue';
 
+
+
+const props = defineProps({
+    totalSector: Object
+})
+const { totalSector } = toRefs(props);
+
+const totalSectorData = totalSector.value;
+
+
+const total = totalSectorData.map(y => y.total);
+const sector = totalSectorData.map(x => x.sector);
 
 const config = {
     type: 'bar',
     data: {
-        labels: ['Alexis', 'Herrera', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: sector,
         datasets: [{
             label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            data: total,
             borderWidth: 1
         }]
     },

@@ -1,0 +1,177 @@
+[
+    {
+      "subrubro": "ALMACENAMIENTO Y DEPOSITO",
+      "actEco": "EXPLOTACION DE FRIGORIFICOS PARA ALMACENAMIENTO Y DEPOSITO",
+      "total": 125
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "AGENCIAS DE ADUANAS",
+      "total": 170
+    },
+    {
+      "subrubro": "TRANSPORTE POR VIAS DE NAVEGACION INTERIORES",
+      "actEco": "TRANSPORTE DE CARGA POR VIAS DE NAVEGACION INTERIORES",
+      "total": 76
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE AEREO",
+      "total": 77
+    },
+    {
+      "subrubro": "ACTIVIDADES POSTALES",
+      "actEco": "ACTIVIDADES POSTALES",
+      "total": 250
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "TRANSPORTE DE PASAJEROS VIA TAXI COLECTIVO",
+      "total": 624
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "AGENCIAS DE NAVES",
+      "total": 23
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "SERVICIOS DE TRANSPORTE DE PASAJEROS EN TAXIS LIBRES Y RADIOTAXIS",
+      "total": 753
+    },
+    {
+      "subrubro": "ACTIVIDADES DE MENSAJERIA",
+      "actEco": "ACTIVIDADES DE MENSAJERIA",
+      "total": 891
+    },
+    {
+      "subrubro": "TRANSPORTE MARITIMO Y DE CABOTAJE",
+      "actEco": "TRANSPORTE DE PASAJEROS MARITIMO Y DE CABOTAJE",
+      "total": 213
+    },
+    {
+      "subrubro": "TRANSPORTE DE PASAJEROS POR VIA AEREA",
+      "actEco": "TRANSPORTE DE PASAJEROS POR VIA AEREA",
+      "total": 251
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "EXPLOTACION DE ESTACIONAMIENTOS DE VEHICULOS AUTOMOTORES Y PARQUIMETROS",
+      "total": 1192
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE TERRESTRE N.C.P.",
+      "total": 3460
+    },
+    {
+      "subrubro": "TRANSPORTE POR FERROCARRIL",
+      "actEco": "TRANSPORTE DE CARGA POR FERROCARRIL",
+      "total": 12
+    },
+    {
+      "subrubro": "TRANSPORTE POR TUBERIAS",
+      "actEco": "TRANSPORTE POR GASODUCTOS",
+      "total": 2
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "SERVICIOS DE TRANSPORTE DE ESCOLARES",
+      "total": 495
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "OTRAS ACTIVIDADES DE TRANSPORTE DE PASAJEROS POR VIA TERRESTRE N.C.P.",
+      "total": 5141
+    },
+    {
+      "subrubro": "TRANSPORTE POR FERROCARRIL",
+      "actEco": "TRANSPORTE INTERURBANO DE PASAJEROS POR FERROCARRIL",
+      "total": 4
+    },
+    {
+      "subrubro": "TRANSPORTE DE CARGA POR VIA AEREA",
+      "actEco": "TRANSPORTE DE CARGA POR VIA AEREA",
+      "total": 182
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "MANIPULACION DE LA CARGA",
+      "total": 495
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS VIA METRO Y METROTREN",
+      "total": 7
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS VIA LOCOMOCION COLECTIVA",
+      "total": 1830
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "SERVICIOS DE TRANSPORTE A TURISTAS",
+      "total": 2063
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "OTRAS ACTIVIDADES DE APOYO AL TRANSPORTE N.C.P.",
+      "total": 1436
+    },
+    {
+      "subrubro": "TRANSPORTE POR TUBERIAS",
+      "actEco": "OTRAS ACTIVIDADES DE TRANSPORTE POR TUBERIAS N.C.P.",
+      "total": 7
+    },
+    {
+      "subrubro": "TRANSPORTE POR VIAS DE NAVEGACION INTERIORES",
+      "actEco": "TRANSPORTE DE PASAJEROS POR VIAS DE NAVEGACION INTERIORES",
+      "total": 106
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "SERVICIOS DE TRANSPORTE DE TRABAJADORES",
+      "total": 2822
+    },
+    {
+      "subrubro": "TRANSPORTE MARITIMO Y DE CABOTAJE",
+      "actEco": "TRANSPORTE DE CARGA MARITIMO Y DE CABOTAJE",
+      "total": 634
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "OTRAS ACTIVIDADES DE TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS POR VIA TERRESTRE N.C.P.",
+      "total": 315
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "EXPLOTACION DE TERMINALES TERRESTRES DE PASAJEROS",
+      "total": 101
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "TRANSPORTE DE CARGA POR CARRETERA",
+      "total": 50094
+    },
+    {
+      "subrubro": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actEco": "TRANSPORTE DE PASAJEROS EN BUSES INTERURBANOS",
+      "total": 1128
+    },
+    {
+      "subrubro": "ALMACENAMIENTO Y DEPOSITO",
+      "actEco": "OTROS SERVICIOS DE ALMACENAMIENTO Y DEPOSITO N.C.P.",
+      "total": 930
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "SERVICIOS PRESTADOS POR CONCESIONARIOS DE CARRETERAS",
+      "total": 41
+    },
+    {
+      "subrubro": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actEco": "ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE ACUATICO",
+      "total": 268
+    }
+  ]

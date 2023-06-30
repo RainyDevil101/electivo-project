@@ -1,14 +1,18 @@
 import { defineStore } from 'pinia';
 import empresas from '../files/empresas.json';
+import empresasRegiones from '../files/empresas-regiones.json';
+import totalSubrubroActividad from '../files/total-subrubro-actividad.json';
 
 export const useCsvsStore = defineStore('localFile', {
     state: () => ({
-            localFile: empresas,
+            empresas: empresas,
+            empresasRegiones: empresasRegiones,
+            totalSubrubroActividad: totalSubrubroActividad,
     }),
     actions: {
         toggleLocalFile() {
-            this.localFile = !this.localFile
-            console.log(this.localFile);
+            this.empresas = !this.empresas
+            console.log(this.empresas);
         },
     }
 });

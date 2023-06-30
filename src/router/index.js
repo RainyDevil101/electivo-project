@@ -1,30 +1,28 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-import DashboardView from '../views/DashboardView.vue';
-import MethodologyView from '../views/MethodologyView.vue';
-import SourcesView from '../views/SourcesView.vue';
+import Dashboard from '../modules/dashboard/router';
+import Home from '../modules/home/router';
+import Sources from '../modules/sources/router';
+import Methodology from '../modules/methodology/router';
 
 const routes = [
+    
     {
         path: '/',
-        name: 'Home',
-        component: HomeView,
+        ...Home,
     },
     {
         path: '/dashboard',
-        name: 'Dashboard',
-        component: DashboardView,
+        ...Dashboard,
     },
     {
         path: '/methodology',
-        name: 'Methodology',
-        component: MethodologyView,
+        ...Methodology,
     },
     {
         path: '/sources',
-        name: 'Sources',
-        component: SourcesView
-    }
+        ...Sources,
+    },
+
 ];
 
 const router = createRouter({

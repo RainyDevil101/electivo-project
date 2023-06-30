@@ -7,12 +7,7 @@
 
 <script setup>
 // import InputCsv from '../components/InputCsv.vue';
-import Charts from '../components/Charts.vue';
-import LatBar from '../components/LatBar.vue';
-import { csvToJson } from '../helpers';
-
-
-const { localFile } = csvToJson();
-
+import Charts from '../views/Charts.vue';
+import LatBar from '../views/LatBar.vue';
 
 </script>
