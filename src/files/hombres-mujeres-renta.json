@@ -1,0 +1,90 @@
+[
+    {
+      "subrubroEconomico": "491 - Transporte por ferrocarril",
+      "totalTrabajadoras": 2208,
+      "rentaTrabajadoras": 534797,
+      "totalTrabajadores": 13903,
+      "rentaTrabajadores": 3427141,
+      "diferenciaRenta": -2892344
+    },
+    {
+      "subrubroEconomico": "492 - Otras actividades de transporte por vía terrestre",
+      "totalTrabajadoras": 169568,
+      "rentaTrabajadoras": 24938712,
+      "totalTrabajadores": 1235228,
+      "rentaTrabajadores": 197247609,
+      "diferenciaRenta": -172308897
+    },
+    {
+      "subrubroEconomico": "493 - Transporte por tuberías",
+      "totalTrabajadoras": 75,
+      "rentaTrabajadoras": 0,
+      "totalTrabajadores": 632,
+      "rentaTrabajadores": 0,
+      "diferenciaRenta": 0
+    },
+    {
+      "subrubroEconomico": "501 - Transporte marítimo y de cabotaje",
+      "totalTrabajadoras": 7635,
+      "rentaTrabajadoras": 2566812,
+      "totalTrabajadores": 45433,
+      "rentaTrabajadores": 12710609,
+      "diferenciaRenta": -10143797
+    },
+    {
+      "subrubroEconomico": "502 - Transporte por vías de navegación interiores",
+      "totalTrabajadoras": 784,
+      "rentaTrabajadoras": 160793,
+      "totalTrabajadores": 5998,
+      "rentaTrabajadores": 1108941,
+      "diferenciaRenta": -948148
+    },
+    {
+      "subrubroEconomico": "511 - Transporte de pasajeros por vía aérea",
+      "totalTrabajadoras": 19111,
+      "rentaTrabajadoras": 7712512,
+      "totalTrabajadores": 26060,
+      "rentaTrabajadores": 21088228,
+      "diferenciaRenta": -13375716
+    },
+    {
+      "subrubroEconomico": "512 - Transporte de carga por vía aérea",
+      "totalTrabajadoras": 2242,
+      "rentaTrabajadoras": 781012,
+      "totalTrabajadores": 5795,
+      "rentaTrabajadores": 2660163,
+      "diferenciaRenta": -1879151
+    },
+    {
+      "subrubroEconomico": "521 - Almacenamiento y depósito",
+      "totalTrabajadoras": 83840,
+      "rentaTrabajadoras": 8945579,
+      "totalTrabajadores": 128540,
+      "rentaTrabajadores": 26435607,
+      "diferenciaRenta": -17490028
+    },
+    {
+      "subrubroEconomico": "522 - Actividades de apoyo al transporte",
+      "totalTrabajadoras": 83578,
+      "rentaTrabajadoras": 17787010,
+      "totalTrabajadores": 215307,
+      "rentaTrabajadores": 54400476,
+      "diferenciaRenta": -36613466
+    },
+    {
+      "subrubroEconomico": "531 - Actividades postales",
+      "totalTrabajadoras": 2032,
+      "rentaTrabajadoras": 321075,
+      "totalTrabajadores": 5509,
+      "rentaTrabajadores": 1041631,
+      "diferenciaRenta": -720556
+    },
+    {
+      "subrubroEconomico": "532 - Actividades de mensajería",
+      "totalTrabajadoras": 2188,
+      "rentaTrabajadoras": 312354,
+      "totalTrabajadores": 5106,
+      "rentaTrabajadores": 726892,
+      "diferenciaRenta": -414538
+    }
+  ]

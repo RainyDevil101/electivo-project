@@ -2,7 +2,7 @@ import MethodologyView from '../MethodologyView.vue';
 
 export default {
 
-    name: 'Methodology',
+    name: 'methodology',
     component: MethodologyView,
 
 };

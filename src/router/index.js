@@ -3,6 +3,7 @@ import Dashboard from '../modules/dashboard/router';
 import Home from '../modules/home/router';
 import Sources from '../modules/sources/router';
 import Methodology from '../modules/methodology/router';
+import PageNotFound from '../components/PageNotFound.vue'
 
 const routes = [
     
@@ -22,7 +23,11 @@ const routes = [
         path: '/sources',
         ...Sources,
     },
-
+    {
+        path: '/:pathMatch(.*)',
+        name: 'not-found',
+        component: PageNotFound,
+    }
 ];
 
 const router = createRouter({

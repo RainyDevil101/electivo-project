@@ -1,6 +1,6 @@
 <template>
     <div class="h-96 lg:h-full dark:bg-lightGray bg-secondary rounded">
-        <canvas id="barChart"></canvas>
+        <canvas id="barChartMujeresRubro"></canvas>
     </div>
 </template>
 
@@ -12,25 +12,24 @@ import { toRefs } from 'vue';
 
 
 const props = defineProps({
-    totalSector: Object
+    mujeresRubro: Object
 })
-const { totalSector } = toRefs(props);
+const { mujeresRubro } = toRefs(props);
 
-const totalSectorData = totalSector.value;
+const totalSectorData = mujeresRubro.value;
 
 
-const total = totalSectorData.map(y => y.total);
-const sector = totalSectorData.map(x => x.sector);
+const total = totalSectorData.map(y => y.trabajadoresFemeninos);
+const sector = totalSectorData.map(x => x.subRubro);
 
 const config = {
     type: 'bar',
     data: {
         labels: sector,
         datasets: [{
-            label: 'Cantidad de empresas de logística por Región',
+            label: 'Total de mujeres en Transporte y Almacenamiento',
             data: total,
-            borderWidth: 1,
-            backgroundColor: 'rgb(255, 99, 132)',
+            borderWidth: 1
         }]
     },
     options: {
@@ -45,7 +44,7 @@ const config = {
 
 
 onMounted(() => {
-    new Chart(document.getElementById('barChart'), config);
+    new Chart(document.getElementById('barChartMujeresRubro'), config);
 });
 
 

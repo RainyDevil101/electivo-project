@@ -1,13 +1,13 @@
 <template>
-    <div class="block lg:flex animate__animated animate__fadeIn animate__faster mx-6 mb-6 lg:mb-0 mt-lat-bar h-full lg:h-lat-bar ">
+    <div class="block animate__animated animate__fadeIn animate__faster mb-6 lg:mb-0 mt-lat-bar h-full lg:h-lat-bar ">
         <LatBar />
-        <Charts />
+        <RouterView/>
     </div>
 </template>
 
 <script setup>
-// import InputCsv from '../components/InputCsv.vue';
-import Charts from '../views/Charts.vue';
-import LatBar from '../views/LatBar.vue';
+
+// import Charts from '../views/Charts.vue';
+import LatBar from '../components/LatBar.vue';
 
 </script>

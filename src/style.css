@@ -22,10 +22,10 @@
     margin: 0 auto;
 }
 
-.router-link-active {
+/* .router-link-active {
     color: #edf2f4ff;
     background-color: #ef233cff;
-}
+} */
 
 .chart {
     height: 100%;

@@ -2,7 +2,7 @@ import SourcesView from '../SourcesView.vue'
 
 export default {
 
-    name: 'Sources',
+    name: 'sources',
     component: SourcesView,
 
 };

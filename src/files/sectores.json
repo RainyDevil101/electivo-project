@@ -1,0 +1,177 @@
+[
+    {
+      "subrubroEconomico": "ALMACENAMIENTO Y DEPOSITO",
+      "actividadEconomica": "EXPLOTACION DE FRIGORIFICOS PARA ALMACENAMIENTO Y DEPOSITO",
+      "total": 125
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "AGENCIAS DE ADUANAS",
+      "total": 170
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE POR VIAS DE NAVEGACION INTERIORES",
+      "actividadEconomica": "TRANSPORTE DE CARGA POR VIAS DE NAVEGACION INTERIORES",
+      "total": 76
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE AEREO",
+      "total": 77
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES POSTALES",
+      "actividadEconomica": "ACTIVIDADES POSTALES",
+      "total": 250
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "TRANSPORTE DE PASAJEROS VIA TAXI COLECTIVO",
+      "total": 624
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "AGENCIAS DE NAVES",
+      "total": 23
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "SERVICIOS DE TRANSPORTE DE PASAJEROS EN TAXIS LIBRES Y RADIOTAXIS",
+      "total": 753
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE MENSAJERIA",
+      "actividadEconomica": "ACTIVIDADES DE MENSAJERIA",
+      "total": 891
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE MARITIMO Y DE CABOTAJE",
+      "actividadEconomica": "TRANSPORTE DE PASAJEROS MARITIMO Y DE CABOTAJE",
+      "total": 213
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE DE PASAJEROS POR VIA AEREA",
+      "actividadEconomica": "TRANSPORTE DE PASAJEROS POR VIA AEREA",
+      "total": 251
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "EXPLOTACION DE ESTACIONAMIENTOS DE VEHICULOS AUTOMOTORES Y PARQUIMETROS",
+      "total": 1192
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE TERRESTRE N.C.P.",
+      "total": 3460
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE POR FERROCARRIL",
+      "actividadEconomica": "TRANSPORTE DE CARGA POR FERROCARRIL",
+      "total": 12
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE POR TUBERIAS",
+      "actividadEconomica": "TRANSPORTE POR GASODUCTOS",
+      "total": 2
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "SERVICIOS DE TRANSPORTE DE ESCOLARES",
+      "total": 495
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "OTRAS ACTIVIDADES DE TRANSPORTE DE PASAJEROS POR VIA TERRESTRE N.C.P.",
+      "total": 5141
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE POR FERROCARRIL",
+      "actividadEconomica": "TRANSPORTE INTERURBANO DE PASAJEROS POR FERROCARRIL",
+      "total": 4
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE DE CARGA POR VIA AEREA",
+      "actividadEconomica": "TRANSPORTE DE CARGA POR VIA AEREA",
+      "total": 182
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "MANIPULACION DE LA CARGA",
+      "total": 495
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS VIA METRO Y METROTREN",
+      "total": 7
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS VIA LOCOMOCION COLECTIVA",
+      "total": 1830
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "SERVICIOS DE TRANSPORTE A TURISTAS",
+      "total": 2063
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "OTRAS ACTIVIDADES DE APOYO AL TRANSPORTE N.C.P.",
+      "total": 1436
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE POR TUBERIAS",
+      "actividadEconomica": "OTRAS ACTIVIDADES DE TRANSPORTE POR TUBERIAS N.C.P.",
+      "total": 7
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE POR VIAS DE NAVEGACION INTERIORES",
+      "actividadEconomica": "TRANSPORTE DE PASAJEROS POR VIAS DE NAVEGACION INTERIORES",
+      "total": 106
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "SERVICIOS DE TRANSPORTE DE TRABAJADORES",
+      "total": 2822
+    },
+    {
+      "subrubroEconomico": "TRANSPORTE MARITIMO Y DE CABOTAJE",
+      "actividadEconomica": "TRANSPORTE DE CARGA MARITIMO Y DE CABOTAJE",
+      "total": 634
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "OTRAS ACTIVIDADES DE TRANSPORTE URBANO Y SUBURBANO DE PASAJEROS POR VIA TERRESTRE N.C.P.",
+      "total": 315
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "EXPLOTACION DE TERMINALES TERRESTRES DE PASAJEROS",
+      "total": 101
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "TRANSPORTE DE CARGA POR CARRETERA",
+      "total": 50094
+    },
+    {
+      "subrubroEconomico": "OTRAS ACTIVIDADES DE TRANSPORTE POR VIA TERRESTRE",
+      "actividadEconomica": "TRANSPORTE DE PASAJEROS EN BUSES INTERURBANOS",
+      "total": 1128
+    },
+    {
+      "subrubroEconomico": "ALMACENAMIENTO Y DEPOSITO",
+      "actividadEconomica": "OTROS SERVICIOS DE ALMACENAMIENTO Y DEPOSITO N.C.P.",
+      "total": 930
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "SERVICIOS PRESTADOS POR CONCESIONARIOS DE CARRETERAS",
+      "total": 41
+    },
+    {
+      "subrubroEconomico": "ACTIVIDADES DE APOYO AL TRANSPORTE",
+      "actividadEconomica": "ACTIVIDADES DE SERVICIOS VINCULADAS AL TRANSPORTE ACUATICO",
+      "total": 268
+    }
+  ]

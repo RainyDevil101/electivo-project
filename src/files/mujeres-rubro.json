@@ -1,0 +1,46 @@
+[
+    {
+        "subRubro": "491 - Transporte por ferrocarril",
+        "trabajadoresFemeninos": 2208
+    },
+    {
+        "subRubro": "492 - Otras actividades de transporte por vía terrestre",
+        "trabajadoresFemeninos": 169568
+    },
+    {
+        "subRubro": "493 - Transporte por tuberías",
+        "trabajadoresFemeninos": 75
+    },
+    {
+        "subRubro": "501 - Transporte marítimo y de cabotaje",
+        "trabajadoresFemeninos": 7635
+    },
+    {
+        "subRubro": "502 - Transporte por vías de navegación interiores",
+        "trabajadoresFemeninos": 784
+    },
+    {
+        "subRubro": "511 - Transporte de pasajeros por vía aérea",
+        "trabajadoresFemeninos": 19111
+    },
+    {
+        "subRubro": "512 - Transporte de carga por vía aérea",
+        "trabajadoresFemeninos": 2242
+    },
+    {
+        "subRubro": "521 - Almacenamiento y depósito",
+        "trabajadoresFemeninos": 83840
+    },
+    {
+        "subRubro": "522 - Actividades de apoyo al transporte",
+        "trabajadoresFemeninos": 83578
+    },
+    {
+        "subRubro": "531 - Actividades postales",
+        "trabajadoresFemeninos": 2032
+    },
+    {
+        "subRubro": "532 - Actividades de mensajería",
+        "trabajadoresFemeninos": 2188
+    }
+]

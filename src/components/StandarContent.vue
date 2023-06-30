@@ -1,7 +1,7 @@
 <template>
     <div class="animate__animated animate__fadeIn animate__faster">
         <PageHeader :key="headerContent" :headerContent="headerContent" />
-        <PageBody :key="bodyContent" :body-content="bodyContent" />
+        <slot></slot>
     </div>
 </template>
 

@@ -16,7 +16,8 @@ export default {
         },
         extend: {
             height: {
-                'lat-bar': 'calc(100vh - 100px)',
+                'lat-bar': 'calc(100vh - 84px)',
+                'h-bar': 'calc(100% - 60px)',
             },
             margin: {
                 'lat-bar': '84px'
